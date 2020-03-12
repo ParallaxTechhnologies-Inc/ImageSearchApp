@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">ImageSearchApp</string>
+
+    <!--設定-->
+    <string name="id_title">端末ID番号</string>
+    <string name="server_url_title">接続するサーバーURL</string>
+    <string name="video_time_title">動画撮影の時間</string>
+    <string name="send_frequency_time_title">GPSデータの送信周期</string>
+    <string name="google_api_config_time_title">Google APIを利用するために必要な設定</string>
+</resources>

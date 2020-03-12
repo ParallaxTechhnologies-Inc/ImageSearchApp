@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <!--端末IDの設定-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_weight="1.0"
+            android:layout_height="50dp"
+            android:layout_width="match_parent"
+            android:text="@string/id_title"
+        />
+
+        <EditText
+            android:layout_weight="1.0"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"/>
+
+      </LinearLayout>
+
+    <!--接続するサーバの設定 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_weight="1.0"
+            android:layout_height="50dp"
+            android:layout_width="match_parent"
+            android:text="@string/server_url_title"
+            />
+
+        <EditText
+            android:layout_weight="1.0"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"/>
+
+    </LinearLayout>
+
+    <!--動画撮影の時間-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_weight="1.0"
+            android:layout_height="50dp"
+            android:layout_width="match_parent"
+            android:text="@string/video_time_title"
+            />
+
+        <EditText
+            android:layout_weight="1.0"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"/>
+
+    </LinearLayout>
+
+    <!--GPSデータ送信周期-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_weight="1.0"
+            android:layout_height="50dp"
+            android:layout_width="match_parent"
+            android:text="@string/send_frequency_time_title"
+            />
+
+        <EditText
+            android:layout_weight="1.0"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"/>
+
+    </LinearLayout>
+
+
+    <!--Google API Config-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_weight="1.0"
+            android:layout_height="50dp"
+            android:layout_width="match_parent"
+            android:text="@string/google_api_config_time_title"
+            />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:inputType="textMultiLine"
+            android:lines="5"
+            />
+
+    </LinearLayout>
+
+
+
+
+
+
+</LinearLayout>
